@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      background: #d35400;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      color: #d35400;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #d35400;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 5px solid #d35400;
+    }
+
+    .footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 28px;
+      }
+
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Nambafu Winnie</h1>
+      <p>Professional Chef</p>
+    </div>
+
+    <div class="content">
+
+      <div class="section">
+        <h2>Personal Information</h2>
+        <div class="info">
+          <div class="card">
+            <strong>Date of Birth:</strong>
+            <p>25/10/2002</p>
+          </div>
+
+          <div class="card">
+            <strong>Location:</strong>
+            <p>Mbale, Uganda</p>
+          </div>
+
+          <div class="card">
+            <strong>Occupation:</strong>
+            <p>Professional Chef</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>About Me</h2>
+        <p>
+          A passionate and highly skilled professional with experience in preparing exceptional dishes,
+          developing creative menus, and delivering outstanding dining experiences.
+          I am committed to teamwork, hygiene, and creating memorable dining experiences through creativity and discipline.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Food Preparation and Storage</li>
+          <li>Baking Skills</li>
+          <li>Catering and Event Services</li>
+          <li>Customer Service Excellence</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Education Background</h2>
+        <ul>
+          <li>Diploma in Catering at Harvard University (2021 - 2024)</li>
+          <li>UACE Certificate at Trinity College (2019 - 2020)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Cooking</li>
+          <li>Singing</li>
+          <li>Travelling</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <div class="info">
+          <div class="card">
+            <strong>Phone:</strong>
+            <p>0782868396</p>
+          </div>
+
+          <div class="card">
+            <strong>Email:</strong>
+            <p>winnienambs@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>© 2026 Nambafu Winnie | Personal Profile</p>
+    </div>
+  </div>
+
+</body>
+</html>
